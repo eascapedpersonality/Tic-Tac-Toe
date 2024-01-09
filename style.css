@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+background-image: url(wood.jpg);
+background-repeat: no-repeat;
+  background-size:200vmin 100vmin;
+    text-align: center;
+    
+}
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+
+}
+.game{
+    height:50vmin;
+    width:55vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height:16vmin;
+    width:16vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    color:red;
+    background-color: #3EECAC;
+background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+}
+
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 10px;
+    background-color: #191913;
+    color: white;
+    border-radius: 1.23rem;
+}
+#newgame-btn{
+    padding:1rem;
+    font-size:10px;
+    background-color: #23231a;
+    color: white;
+    border-radius: 1.23rem;
+}
+#msg{
+    color: #ffffc7;
+    font-size:5vmin;
+}
+
+.msg-container{
+    height:20vmin;
+}
+
+.hide{
+    display:none;
+}
